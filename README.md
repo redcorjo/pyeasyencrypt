@@ -32,12 +32,11 @@ if __name__ == '__main__':
 
 Name: Jordi Redondo 
 Email: jordipromotions@gmail.com
+git repo: https://github.com/redcorjo/pyeasyencrypt.git
 
 ## Install
-
-git clone https://github.com/redcorjo/pyeasyencrypt.git
 
 pip install pyeasyencrypt
 
 
-Version: 2023010802
+Version: 2023010803
