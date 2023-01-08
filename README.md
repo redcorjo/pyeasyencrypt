@@ -8,6 +8,7 @@ The purpose of this module is to simplify the way of encrypting and decrypting s
 ## Example of Python code
 ```python
 import logging, os
+# pip install pyeasyencrypt
 from pyeasyencrypt.pyeasyencrypt import encrypt_string, decrypt_string
 
 level = os.getenv("LOGGER", "INFO")
@@ -32,5 +33,11 @@ if __name__ == '__main__':
 Name: Jordi Redondo 
 Email: jordipromotions@gmail.com
 
+## Install
 
-Version: 2023010800
+git clone https://github.com/redcorjo/pyeasyencrypt.git
+
+pip install pyeasyencrypt
+
+
+Version: 2023010802
