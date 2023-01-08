@@ -7,7 +7,7 @@
 BASE_DIR=$(dirname $0)/..
 TWINE_CONFIG=$(dirname $0)/../.pypirc
 PYTHON=python3.9
-PACKAGE=pyarchetype
+PACKAGE=pyeasyencrypt
 
 cd ${BASE_DIR}
 
@@ -29,7 +29,7 @@ fi
 echo "Build"
 python -m build
 
-python -m pip install --upgrade dist/${PACKAGE}*whl
+python -m pip install --upgrade  --force-reinstall dist/${PACKAGE}*whl
 
 #pyeasyencrypt -h
 
