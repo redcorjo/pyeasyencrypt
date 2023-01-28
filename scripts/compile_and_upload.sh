@@ -20,7 +20,7 @@ then
     ${PYTHON} -m venv .venv
     echo "Enable virtual environment"
     source ${BASE_DIR}/.venv/bin/activate
-    python -m pip install --upgrade pip build twine
+    ${BASE_DIR}/.venv/bin/python -m pip install --upgrade pip build twine
 else
     echo "Enable virtual environment"
     source ${BASE_DIR}/.venv/bin/activate
@@ -38,7 +38,7 @@ else
     twine upload dist/*
 fi
 
-python -m pip install --upgrade dist/${PACKAGE}*whl
+${BASE_DIR}/.venv/bin/python -m pip install --upgrade dist/${PACKAGE}*whl
 
 #pyeasyencrypt -h
 

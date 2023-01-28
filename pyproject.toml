@@ -4,7 +4,7 @@
 # git clone https://github.com/redcorjo/pyarchetype.git
 [project]
 name = "pyeasyencrypt"
-version = "0.0.1"
+version = "0.1.0"
 description = "Your easy tool to encrypt and decrypt strings with a password"
 authors = [
   { name="Jordi Redondo", email="jordipromotions@gmail.com" },
@@ -15,6 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+
+dependencies = [
+"cryptography"
 ]
 
 [project.urls]
