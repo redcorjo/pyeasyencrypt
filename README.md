@@ -38,5 +38,9 @@ git repo: https://github.com/redcorjo/pyeasyencrypt.git
 
 pip install pyeasyencrypt
 
+NOTE. If it fails due cryptography dependencies. Try installing first version 3.4.6 of cryptography
 
-Version: 2023010803
+ pip install cryptography==3.4.6
+
+
+Version: 2023012900
